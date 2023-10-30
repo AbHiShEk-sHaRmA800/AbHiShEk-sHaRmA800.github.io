@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        nav{
+            display: flex;
+            height: 80px;
+            background-color:black;
+            justify-content: center;
+            align-items: center;
+        }
+        nav ul{
+           color:white; 
+            display: flex;
+            justify-content: center;
+            text-decoration: none;
+           
+            
+        }
+       
+        nav ul li{
+           color: red;
+            list-style: none;
+            margin: 0 23px;
+           
+           
+        }
+
+        nav li a{
+            
+            text-decoration: none;
+            color: white;
+            font-size: large;
+        }
+        nav li a:hover{
+            color:rgb(170, 255, 0);
+        }
+        
+        .left{
+           float: left;
+            color: white;
+            font-size: 1.5rem; 
+        }
+        
+        
+        .yellow{
+            color: yellow;
+            font-style:oblique;
+        }
+        .leftcontainer,.rightcontainer{
+            height: 100vh;
+            box-sizing: border-box;
+        }
+        .leftcontainer{
+            background:orchid;
+            width:50%;
+        }
+        .rightcontainer{
+            margin-top: 0px;
+            float:right;
+            width: 50%;
+            background-color: aqua;
+        }
+       
+     .container22{
+        
+     }
+
+    </style>    
+</head>
+<body>
+   <header>
+    <nav>
+    <nav class="container22">
+<div class="left"> POrt
+    <span class="yellow">folio</span>
+   </div>
+   </nav>
+<div class="portfolio">
+    <ul>
+        <li><a href="#">Home</a> </li>
+        <li><a href="#">About</a> </li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact </a></li>
+    </ul>
+
+    </nav>
+  </header>
+ <div class="leftcontainer">
+     </div>
+ <div class="rightcontainer"><img src="https://media.foundit.in/career-advice/wp-content/uploads/2021/11/web-developer-interview-questions-and-answers.jpg";
+  alt="error" width="200px">
+</div>
+</div>
+</body>
+</html>
