@@ -1,1 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            height: 1;
+        }
+
+        nav {
+            display: flex;
+            height: 80px;
+            background-color: black;
+            justify-content: center;
+            align-items: center;
+            position: sticky;
+        }
+
+        nav ul {
+            color: white;
+            display: flex;
+
+            text-decoration: none;
+
+
+        }
+
+        nav ul li {
+            color: red;
+            list-style: none;
+            margin: 0 23px;
+
+
+        }
+
+        nav li a {
+
+            text-decoration: none;
+            color: white;
+            font-size: large;
+        }
+
+        nav li a:hover {
+            color: rgb(170, 255, 0);
+        }
+
+        .left {
+            float: left;
+            color: white;
+            font-size: 1.5rem;
+        }
+       .portfolio{
+            position: sticky;
+        }
+
+        .yellow {
+            color: yellow;
+            font-style: oblique;
+        }
+
+        .leftcontainer, .rightcontainer {
+            height: 100vh;
+            box-sizing: border-box;
+            display: inline-block;
+        }
+
+        .leftcontainer {
+            background:beige;
+            width: 50%;
+            text-align: center;
+            
+        }
+        .leftcontainer h1{
+            margin-top: 300px;
+        }
+
+        .rightcontainer {
+            margin-top: 0px;
+            float: right;
+            width: 50%;
+            background-color:sandybrown;
+            margin: auto;
+        }
+
+        .container22 {
+            float: left;
+            margin: 0 0px;
+            position: sticky;
+        }
+        .rightcontainer img{
+            margin-top: 300px;
+            margin-left: 125px;
+
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="container22">
+            <div class="left"> POrt
+                <span class="yellow">folio</span>
+            </div>
+        </nav>
+        <nav>
+
+            <div class="portfolio">
+                <ul>
+                    <li><a href="#">Home</a> </li>
+                    <li><a href="#">About</a> </li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact </a></li>
+                </ul>
+
+        </nav>
+    </header>
+    <div class="leftcontainer">
+        <h1>Hello!!!!</h1>
+    </div>
+    <div class="rightcontainer"><img
+            src="https://media.foundit.in/career-advice/wp-content/uploads/2021/11/web-developer-interview-questions-and-answers.jpg"
+            ; alt="error" width=360px" height="200px">
+    </div>
+    </div>
+</body>
+
+</html>
